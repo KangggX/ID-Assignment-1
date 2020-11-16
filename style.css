@@ -3,3 +3,26 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #4E4E4E;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #4E4E4E;
+    color: #efefef;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin-right: 2.5rem;
+    padding: 1rem 0;
+}
