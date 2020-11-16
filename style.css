@@ -7,7 +7,6 @@
 body {
     background-color: #4E4E4E;
     margin: 0;
-    overflow: hidden;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 1.6rem;
 }
@@ -50,9 +49,13 @@ Home Section
 ******************************/
 .wrap {
     position: relative;
-    min-height: 700px;
+    min-height: 600px;
     width: 100%;
-    padding: 10rem;
+    padding: 10rem 0;
+}
+
+.container {
+    padding: 0 5rem;
 }
 
 .home-content p {
@@ -65,6 +68,8 @@ Home Section
     left: 0;
     top: 0;
     height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .overlay-1 {
