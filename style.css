@@ -58,7 +58,9 @@ Home Section
     padding: 0 5rem;
 }
 
-.home-content p {
+.home-content {
+    max-width: 125rem;
+    margin: 0 auto;
     color: white;
     font-weight: bold;
 }
