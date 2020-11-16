@@ -50,10 +50,20 @@ Home Section
 ******************************/
 .wrap {
     position: relative;
+    min-height: 700px;
+    width: 100%;
     padding: 10rem;
 }
 
+.home-content p {
+    color: white;
+    font-weight: bold;
+}
+
 .image-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
 }
 
