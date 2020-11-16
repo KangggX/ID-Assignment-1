@@ -31,7 +31,7 @@ Navigation Bar
     cursor: default;
     text-align: center;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     margin-right: 0.5rem;
     transition: all .3s ease;
 }
@@ -49,9 +49,9 @@ Home Section
 ******************************/
 .wrap {
     position: relative;
-    min-height: 600px;
+    min-height: 672px;
     width: 100%;
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 
 .container {
@@ -71,6 +71,7 @@ Home Section
     top: 0;
     height: 100%;
     width: 100%;
+    pointer-events: none;
     overflow: hidden;
 }
 
@@ -78,12 +79,22 @@ Home Section
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -2;
 }
 
 .overlay-2 {
     position: absolute;
     bottom: 0;
-    left: -50%;
-    z-index: -2;
+    z-index: -1;
+    animation: waveRight 45s infinite linear;
+}
+
+@keyframes waveRight {
+    0% {
+        transform: translateX(-40%);
+    }
+
+    100% {
+        transform: translateX(-15.5%);
+    }
 }
