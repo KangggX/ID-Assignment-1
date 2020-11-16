@@ -22,7 +22,20 @@ body {
     padding: 0;
 }
 
-.navbar-nav li {
-    margin-right: 2.5rem;
-    padding: 1rem 0;
+.navbar-nav .navbar-item {
+    cursor: default;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    transition: all .3s ease;
+}
+
+.navbar-item.active {
+    color: #10EFBB;
+    border-bottom: 3px solid #10EFBB;
+}
+
+.navbar-item:hover {
+    color: #10EFBB;
+    border-bottom: 3px solid #10EFBB;
 }
