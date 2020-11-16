@@ -21,9 +21,12 @@ Global Usage
 ****************************************/
 .wrap {
     position: relative;
-    min-height: 67rem;
     width: 100%;
     padding: 12rem 0;
+}
+
+.wrap-start {
+    min-height: 67rem;
 }
 
 .container {
@@ -34,6 +37,10 @@ Global Usage
     max-width: 125rem;
     margin: 0 auto;
     color: white;
+}
+
+.highlight {
+    color: #10efbb;
 }
 
 /****************************************
