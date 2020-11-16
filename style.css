@@ -9,6 +9,7 @@ body {
     margin: 0;
     overflow: hidden;
     font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6rem;
 }
 
 /******************************
@@ -49,10 +50,23 @@ Home Section
 ******************************/
 .wrap {
     position: relative;
+    padding: 20rem;
+}
+
+.image-overlay {
+    
+    height: 100%;
 }
 
 .overlay-1 {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
+}
+
+.overlay-2 {
+    position: absolute;
+    bottom: 0;
+    left: -50%;
 }
