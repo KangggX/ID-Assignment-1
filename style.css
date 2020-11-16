@@ -7,10 +7,12 @@
 body {
     background-color: #4E4E4E;
     margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .navbar {
-    background-color: #4E4E4E;
+    background-color: #3C3C3C;
     color: #efefef;
 }
 
@@ -25,6 +27,7 @@ body {
 .navbar-nav .navbar-item {
     cursor: default;
     text-align: center;
+    font-size: 1rem;
     padding: 1rem;
     margin-right: 0.5rem;
     transition: all .3s ease;
@@ -32,10 +35,8 @@ body {
 
 .navbar-item.active {
     color: #10EFBB;
-    border-bottom: 3px solid #10EFBB;
 }
 
 .navbar-item:hover {
     color: #10EFBB;
-    border-bottom: 3px solid #10EFBB;
 }
