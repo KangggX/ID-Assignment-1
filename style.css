@@ -5,17 +5,42 @@
 }
 
 body {
-    background-color: #4E4E4E;
+    background-color: #4e4e4e;
     margin: 0;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 1.6rem;
 }
 
-/******************************
+/****Root Element for rem unit usage****/
+:root {
+    font-size: 10px;
+}
+
+/****************************************
+Global Usage
+****************************************/
+.wrap {
+    position: relative;
+    min-height: 67rem;
+    width: 100%;
+    padding: 12rem 0;
+}
+
+.container {
+    padding: 0 15rem;
+}
+
+.content {
+    max-width: 125rem;
+    margin: 0 auto;
+    color: white;
+}
+
+/****************************************
 Navigation Bar
-******************************/
+****************************************/
 .navbar {
-    background-color: #3C3C3C;
+    background-color: #3c3c3c;
     color: #efefef;
 }
 
@@ -30,38 +55,30 @@ Navigation Bar
 .navbar-nav .navbar-item {
     cursor: default;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 2rem;
     margin-right: 0.5rem;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar-item a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .navbar-item.active {
-    color: #10EFBB;
+    color: #10efbb;
 }
 
 .navbar-item:hover {
-    color: #10EFBB;
+    color: #10efbb;
 }
 
-/******************************
+/****************************************
 Home Section
-******************************/
-.wrap {
-    position: relative;
-    min-height: 672px;
-    width: 100%;
-    padding: 5rem 0;
-}
-
-.container {
-    padding: 0 5rem;
-}
-
-.home-content {
-    max-width: 125rem;
-    margin: 0 auto;
-    color: white;
+****************************************/
+.content.introduction {
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
