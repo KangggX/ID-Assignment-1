@@ -128,3 +128,16 @@ Education Section
 ****************************************/
 
 /***Timeline***/
+.timeline {
+    position: relative;
+    width: 100%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    background-color: #3C3C3C;
+    width: 12px;
+    left: 50%;
+    margin-right: 6px;
+}
