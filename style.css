@@ -110,7 +110,7 @@ Home Section
     position: absolute;
     bottom: 0;
     z-index: -1;
-    animation: waveRight 60s infinite linear;
+    animation: waveRight 180s infinite linear;
 }
 
 @keyframes waveRight {
