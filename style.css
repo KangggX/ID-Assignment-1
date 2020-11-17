@@ -61,13 +61,16 @@ Navigation Bar
     padding: 0;
 }
 
-.navbar-nav .navbar-item {
+.navbar-link {
+    display: block;
+    padding: 2rem 3rem;
+}
+
+.navbar-item {
     cursor: default;
     text-align: center;
     font-size: 1.2rem;
-    padding: 2rem 3rem;
     margin-right: 0.5rem;
-    transition: all 0.3s ease;
 }
 
 .navbar-item a {
@@ -77,6 +80,7 @@ Navigation Bar
 
 .navbar-item.active {
     color: #10efbb;
+    padding: 2rem 3rem;
 }
 
 .navbar-item:hover {
