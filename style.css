@@ -9,6 +9,7 @@ body {
     margin: 0;
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.6rem;
+    font-weight: 200;
 }
 
 /****Root Element for rem unit usage****/
@@ -49,6 +50,7 @@ Navigation Bar
 .navbar {
     background-color: #3c3c3c;
     color: #efefef;
+    font-weight: 400;
 }
 
 .navbar-nav {
