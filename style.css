@@ -83,14 +83,14 @@ Navigation Bar
     color: #10efbb;
 }
 
-/****************************************
-Home Section
-****************************************/
-.content .introduction, .content .education {
-    font-size: 2.4rem;
+.content .title {
+    font-size: 3rem;
     font-weight: bold;
 }
 
+/****************************************
+Home Section
+****************************************/
 .image-overlay {
     position: absolute;
     left: 0;
