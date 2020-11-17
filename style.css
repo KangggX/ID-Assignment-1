@@ -156,14 +156,22 @@ Education Section
 }
 
 .timeline__year {
+    position: relative;
+    text-align: right;
     padding: 0 5rem;
 }
 
 .timeline__year::after {
     content: '';
     position: absolute;
-    height: 40px;
-    width: 40px;
+    top: -2px;
+    right: -18px;
+    background-color: #10efbb;
+    height: 24px;
+    width: 24px;
+    transform: rotate(45deg);
+    border: 5px solid #3C3C3C;
+    z-index: 2;
 }
 
 .timeline__description {
