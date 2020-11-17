@@ -145,10 +145,15 @@ Education Section
     margin-right: 6px;
 }
 
+.timeline h2 {
+    margin: 0;
+}
+
 .timeline .row {
     position: relative;
     display: flex;
     padding: 2rem 0;
+    line-height: 2rem;
 }
 
 .timeline__year, .timeline__description {
