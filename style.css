@@ -84,7 +84,7 @@ Navigation Bar
 /****************************************
 Home Section
 ****************************************/
-.content.introduction, .content.education {
+.content .introduction, .content .education {
     font-size: 2.4rem;
     font-weight: bold;
 }
@@ -131,6 +131,7 @@ Education Section
 .timeline {
     position: relative;
     max-width: 125rem;
+    margin-top: 5rem;
 }
 
 .timeline::after {
@@ -138,6 +139,12 @@ Education Section
     position: absolute;
     background-color: #3C3C3C;
     width: 12px;
+    height: 100%;
+    top: 0;
     left: 50%;
     margin-right: 6px;
+}
+
+.timeline .row {
+    position: relative;
 }
