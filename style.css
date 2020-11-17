@@ -131,7 +131,7 @@ Education Section
 .timeline {
     position: relative;
     max-width: 125rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .timeline::after {
@@ -147,4 +147,25 @@ Education Section
 
 .timeline .row {
     position: relative;
+    display: flex;
+    padding: 2rem 0;
+}
+
+.timeline__year, .timeline__description {
+    width: 50%;
+}
+
+.timeline__year {
+    padding: 0 5rem;
+}
+
+.timeline__year::after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.timeline__description {
+    padding: 0 calc(5rem + 12px);
 }
