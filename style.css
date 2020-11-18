@@ -23,7 +23,7 @@ Global Usage
 .wrap {
     position: relative;
     width: 100%;
-    padding: 12rem 0;
+    padding: 10rem 0;
 }
 
 .wrap__start {
@@ -41,7 +41,7 @@ Global Usage
 }
 
 .content .title {
-    font-size: 3rem;
+    font-size: 4.8rem;
     font-weight: bold;
     margin-bottom: 10rem;
 }
@@ -65,6 +65,7 @@ Navigation Bar
     list-style-type: none;
     margin: 0;
     padding: 0;
+    line-height: 2rem;
 }
 
 .navbar__link {
@@ -214,8 +215,14 @@ Project Section
 }
 
 .project-thumbnail {
+    position: relative;
     height: 100%;
     background-position: center;
     background-size: 400px;
     background-repeat: no-repeat;
+}
+
+.project-thumbnail .cover {
+    padding: 15rem;
+    height: 100%;
 }
