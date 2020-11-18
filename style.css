@@ -48,7 +48,7 @@ Global Usage
 Navigation Bar
 ****************************************/
 .navbar {
-    background-color: #3c3c3c;
+    background-color: #2e2e2e;
     color: #efefef;
     font-weight: 400;
 }
@@ -121,11 +121,11 @@ Home Section
 
 @keyframes waveRight {
     0% {
-        transform: translateX(-40%);
+        transform: translateX(-20%);
     }
 
     100% {
-        transform: translateX(-15.5%);
+        transform: translateX(4.5%);
     }
 }
 
