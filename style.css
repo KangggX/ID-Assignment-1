@@ -121,11 +121,11 @@ Home Section
 
 @keyframes waveRight {
     0% {
-        transform: translateX(-20%);
+        transform: translateX(-25%);
     }
 
     100% {
-        transform: translateX(4.5%);
+        transform: translateX(-0.5%);
     }
 }
 
@@ -152,6 +152,7 @@ Education Section
 }
 
 .timeline h2 {
+    color: #10efbb;
     margin: 0;
 }
 
