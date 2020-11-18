@@ -40,6 +40,12 @@ Global Usage
     color: white;
 }
 
+.content .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10rem;
+}
+
 .highlight {
     color: #10efbb;
 }
@@ -87,11 +93,6 @@ Navigation Bar
     color: #10efbb;
 }
 
-.content .title {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 /****************************************
 Home Section
 ****************************************/
@@ -137,7 +138,6 @@ Education Section
 .timeline {
     position: relative;
     max-width: 125rem;
-    margin-top: 10rem;
 }
 
 .timeline::after {
@@ -191,9 +191,17 @@ Education Section
 }
 
 /****************************************
-Education Section
+Project Section
 ****************************************/
 
 .project-modal {
-    
+    display: flex;
+}
+
+.project-modal .col-1 {
+    margin-right: 5rem;
+}
+
+.project-modal .col-1, .project-modal .col-2 {
+    width: 50%;
 }
