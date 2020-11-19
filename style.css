@@ -195,36 +195,8 @@ Education Section
 Project Section
 ****************************************/
 
-.project-modal {
+.project-gallery {
     display: flex;
-}
-
-.project-modal .col-1 {
-    width: 43%;
-    height: 750px;
-    margin-right: 10rem;
-}
-
-.project-modal .col-2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.project-modal .col-1, .project-modal .col-2 {
-    width: 50%;
-}
-
-.project-thumbnail {
-    position: relative;
-    height: 100%;
-    background-position: center;
-    background-size: 400px;
-    background-repeat: no-repeat;
-}
-
-.project-thumbnail .cover {
-    padding: 15rem 8rem;
-    height: 100%;
 }
 
 /****************************************
