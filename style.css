@@ -205,6 +205,10 @@ Project Section
     margin-bottom: 5rem;
 }
 
+.project-gallery .row-2 {
+    height: 50rem;
+}
+
 .project-gallery .row-1, .project-gallery .row-2 {
     display: flex;
 }
@@ -214,10 +218,21 @@ Project Section
 }
 
 .project-thumbnail {
+    position: relative;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.project-title {
+    position: absolute;
+    bottom: 0;
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    width: 25%;
+    padding: 0.4em 0.8rem;
 }
 
 /****************************************
