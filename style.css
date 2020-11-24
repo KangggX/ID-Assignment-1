@@ -201,7 +201,7 @@ Project Section
 }
 
 .project-gallery .row-1 {
-    height: 25rem;
+    height: 30rem;
     margin-bottom: 5rem;
 }
 
@@ -231,7 +231,6 @@ Project Section
     background-color: cyan;
     color: black;
     font-weight: bold;
-    width: 25%;
     padding: 0.4em 0.8rem;
 }
 
