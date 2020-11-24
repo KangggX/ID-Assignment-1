@@ -41,8 +41,9 @@ Global Usage
 }
 
 .content .title {
+    font-family: 'Teko', sans-serif;
     font-size: 3.6rem;
-    font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 10rem;
 }
 
