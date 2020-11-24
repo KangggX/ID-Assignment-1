@@ -233,6 +233,31 @@ Project Section
     color: black;
     font-weight: bold;
     padding: 0.4em 0.8rem;
+    transition: all .3s ease;
+}
+
+.row-1 .project-hidden-text, .row-2 .project-hidden-text {
+    opacity: 0;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.row-1 .project-hidden-text {
+    padding: 5rem 10rem;
+}
+
+.row-2 .project-hidden-text {
+    padding: 10rem;
+}
+
+.project-thumbnail:hover > .project-hidden-text {
+    opacity: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+    transition: all 0.3s ease;
+}
+
+.project-thumbnail:hover > .project-title {
+    opacity: 0;
 }
 
 /****************************************
