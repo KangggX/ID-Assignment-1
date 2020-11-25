@@ -48,7 +48,7 @@ Global Usage
 .title h3 {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .highlight {
@@ -116,13 +116,13 @@ Home Section
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -2;
+    z-index: -10;
 }
 
 .overlay-2 {
     position: absolute;
     bottom: 0;
-    z-index: -1;
+    z-index: -9;
     animation: waveRight 150s infinite linear;
 }
 
@@ -218,16 +218,25 @@ Project Section
     display: flex;
 }
 
-.project-gallery .project-thumbnail:first-child {
+.project-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-gallery .project-section:first-child {
     margin-right: 5rem;
 }
 
 .project-thumbnail {
-    position: relative;
+    position: absolute;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    transition: all .3s ease;
 }
 
 .project-title {
@@ -243,6 +252,7 @@ Project Section
 .row-1 .project-hidden-text, .row-2 .project-hidden-text {
     opacity: 0;
     height: 100%;
+    font-family: 'Open-Sans', sans-serif;
     transition: all 0.3s ease;
 }
 
@@ -254,14 +264,19 @@ Project Section
     padding: 10rem;
 }
 
-.project-thumbnail:hover > .project-hidden-text {
+.project-section:hover > .project-hidden-text {
     opacity: 1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
     transition: all 0.3s ease;
 }
 
-.project-thumbnail:hover > .project-title {
+.project-section:hover > .project-title {
     opacity: 0;
+}
+
+.project-section:hover > .project-thumbnail {
+    filter: blur(5px);
+    transform: scale(1.1);
 }
 
 /****************************************
