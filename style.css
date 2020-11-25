@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #4e4e4e;
+    background-color: #434343;
     margin: 0;
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.6rem;
@@ -34,6 +34,14 @@ Global Usage
     padding: 0 15rem;
 }
 
+.container.center {
+    margin: 0 30rem;
+}
+
+.center .content {
+    max-width: 60rem;
+}
+
 .content {
     max-width: 125rem;
     margin: 0 auto;
@@ -42,6 +50,7 @@ Global Usage
 
 .content .title {
     display: inline-block;
+    font-size: 3.6rem;
     margin-bottom: 10rem;
 }
 
@@ -149,7 +158,7 @@ Education Section
 .timeline::after {
     content: '';
     position: absolute;
-    background-color: #3C3C3C;
+    background-color: #2e2e2e;
     width: 6px;
     height: 100%;
     top: 0;
@@ -188,7 +197,7 @@ Education Section
     height: 14px;
     width: 14px;
     border-radius: 50px;
-    border: 3px solid #3C3C3C;
+    border: 3px solid #2e2e2e;
     z-index: 2;
 }
 
