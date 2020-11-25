@@ -22,11 +22,11 @@
                     <li class="navbar__item">
                         <a class="navbar__link" href="education.html">👨‍🎓 Education</a>
                     </li>
-                    <li class="navbar__item" href="projects.html">
-                        📚 Projects
-                    </li>
                     <li class="navbar__item">
-                        <a class="navbar__link active">📱 Contact Me</a>
+                        <a class="navbar__link" href="projects.html">📚 Projects</a>
+                    </li>
+                    <li class="navbar__item active">
+                        📱 Contact Me
                     </li>
                 </ul>
             </nav>
@@ -35,7 +35,32 @@
         <section class="wrap wrap__start">
             <div class="container">
                 <div class="content">
+                    <div class="title">
+                        <h3 class="highlight">Contact Me</h3>
+                        <div style="font-family: 'Open-Sans', sans-serif; font-size: 1.8rem;">
+                            Wanna know more about me? Or at least have a meal together?
+                        </div>
+                    </div>
 
+                    <div class="contact-form">
+                        <form action="/some-url" method="POST">
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                            </div>
+            
+                            <div>
+                                <label for="username">Username</label><br>
+                                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                            </div>
+            
+                            <div>
+                                <textarea rows="4" cols="51" name="comment" form="usrform" placeholder="Brief description of yourself"></textarea>
+                            </div>    
+                            
+                            <input type="submit">
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -46,3 +71,15 @@
         </section>
     </body>
 </html>
+
+    <section class="main-content">
+        <div class="skill-wrapper">
+            <div class="skill-box">
+                <h2>Hard Skills</h2>
+            </div>
+
+            <div class="skill-box">
+                <h2>Soft Skills</h2>
+            </div>
+        </div>
+    </section>
