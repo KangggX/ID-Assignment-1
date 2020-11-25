@@ -41,10 +41,14 @@ Global Usage
 }
 
 .content .title {
-    font-family: 'Teko', sans-serif;
-    font-size: 3.6rem;
-    text-transform: uppercase;
+    display: inline-block;
     margin-bottom: 10rem;
+}
+
+.title h3 {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .highlight {
