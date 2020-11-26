@@ -96,6 +96,7 @@ Navigation Bar
     text-align: center;
     font-size: 1.4rem;
     margin-right: 0.5rem;
+    transition: color .3s ease;
 }
 
 .navbar__item a {
@@ -316,6 +317,11 @@ Contact Me/Form Section
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     font-weight: bold;
+    transition: background-color .3s ease;
+}
+
+.form-button_submit:hover {
+    background-color: #0bb38b;
 }
 
 /****************************************
