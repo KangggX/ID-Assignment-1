@@ -35,30 +35,34 @@
         <section class="wrap wrap__start">
             <div class="container">
                 <div class="content">
-                    <div class="title">
-                        <h3 class="highlight">Contact Me</h3>
-                        <div style="font-family: 'Open-Sans', sans-serif; font-size: 1.8rem;">
-                            Wanna know more about me? Or at least have a meal together?
+                    <div class="contact-form center" style="margin-top: 0;">
+                        <div class="title" style="text-align: center;">
+                            <h3 class="highlight">
+                                Contact Me
+                            </h3>
+        
+                            <div style="font-family: 'Open-Sans', sans-serif; font-size: 1.8rem;">
+                                Have questions for me? Send me an email below.
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="contact-form">
-                        <form action="/some-url" method="POST">
-                            <div>
-                                <label for="email">Email</label><br>
-                                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        
+                        <form action="mailto:lowkangxuan@gmail.com" method="POST">
+                            <div class="form-row">
+                                <input style="margin-right: 3rem;" type="text" id="username" name="username" placeholder="Name" required>
+                                <input type="email" id="email" name="email" placeholder="Email" required>                    
+                            </div>
+        
+                            <div class="form-row">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
                             </div>
             
-                            <div>
-                                <label for="username">Username</label><br>
-                                <input type="text" id="username" name="username" placeholder="Enter Username" required>
-                            </div>
-            
-                            <div>
-                                <textarea rows="4" cols="51" name="comment" form="usrform" placeholder="Brief description of yourself"></textarea>
+                            <div class="form-row">
+                                <textarea rows="5"name="comment" form="usrform" placeholder="Comments"></textarea>
                             </div>    
                             
-                            <input type="submit">
+                            <div class="form-row" style="justify-content: center;">  
+                                <button class="form-button_submit"type="submit">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
