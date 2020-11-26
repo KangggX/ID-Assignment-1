@@ -116,6 +116,11 @@ Navigation Bar
 /****************************************
 Home Section
 ****************************************/
+.intro-para {
+    font-family: 'Open-Sans', sans-serif; 
+    font-size: 1.8rem;
+}
+
 .image-overlay {
     position: absolute;
     left: 0;
