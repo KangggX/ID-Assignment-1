@@ -114,6 +114,27 @@ Navigation Bar
 }
 
 /****************************************
+Footer
+****************************************/
+.social-row {
+    text-align: center;
+}
+
+.social-row a {
+    display: inline-block;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: .5rem;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/****************************************
 Home Section
 ****************************************/
 .intro-para {
