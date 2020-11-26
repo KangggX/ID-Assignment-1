@@ -6,6 +6,7 @@
 
 body {
     background-color: #434343;
+    color: white;
     margin: 0;
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.6rem;
@@ -34,7 +35,7 @@ Global Usage
     padding: 0 15rem;
 }
 
-.container.center {
+.container.center, .contact-form.center {
     margin: 0 30rem;
     margin-top: 10rem;
 }
@@ -49,8 +50,7 @@ Global Usage
     color: white;
 }
 
-.content .title {
-    display: inline-block;
+.title {
     font-size: 3.6rem;
     margin-bottom: 10rem;
 }
@@ -297,7 +297,7 @@ Media Queries
 ****************************************/
 
 @media screen and (min-width: 1440px) {
-    .content .title {
+    .title {
         font-size: 4.8rem;
     }
 }
