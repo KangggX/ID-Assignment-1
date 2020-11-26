@@ -6,7 +6,7 @@
 
 body {
     background-color: #434343;
-    color: white;
+    color: #fff;
     margin: 0;
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.6rem;
@@ -47,7 +47,7 @@ Global Usage
 .content {
     max-width: 125rem;
     margin: 0 auto;
-    color: white;
+    color: #fff;
 }
 
 .title {
@@ -290,6 +290,32 @@ Project Section
 .project-section:hover > .project-thumbnail {
     filter: blur(5px);
     transform: scale(1.1);
+}
+
+/****************************************
+Contact Me/Form Section
+****************************************/
+
+.form-row {
+    display: flex;
+}
+
+.form-row input, .form-row textarea {
+    flex: 1 0 0;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid #2e2e2e;
+    border-radius: 0.5rem;
+    resize: vertical;
+}
+
+.form-button_submit {
+    color: #fff;
+    background-color: #0ccfa1;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
 }
 
 /****************************************
