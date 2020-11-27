@@ -95,7 +95,6 @@ Navigation Bar
     cursor: default;
     text-align: center;
     font-size: 1.4rem;
-    margin-right: 0.5rem;
     transition: color .3s ease;
 }
 
@@ -357,6 +356,66 @@ Contact Me/Form Section
 /****************************************
 Media Queries
 ****************************************/
+@media screen and (max-width: 576px) {
+
+    /*****
+    Navbar
+    *****/
+    .navbar__item--left {
+        display: none;
+    }
+
+    .navbar__link, .navbar__item.active {
+        padding: 2rem;
+    }
+
+    .container.center, .contact-form.center {
+        margin: 0;
+        margin-top: 5rem;
+    }
+
+    .container {
+        padding: 0 10rem;
+    }
+
+    /*****
+    Global
+    *****/
+    .title {
+        margin-bottom: 5rem;
+    }
+
+    .overlay-1 {
+        height: 35rem;
+    }
+    /*****
+    Education Section
+    *****/
+    .timeline .row {
+        flex-direction: column;
+    }
+
+    .timeline__year {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .timeline__year::after {
+        left: -4px;
+    }
+
+    .timeline__description {
+        padding: 0 5rem;
+    }
+
+    .timeline__year, .timeline__description {
+        width: 100%;
+    }
+
+    .timeline::after {
+        left: 0;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .title {
