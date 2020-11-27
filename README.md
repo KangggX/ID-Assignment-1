@@ -49,14 +49,12 @@ Lastly, my Contact Me feature which allows users to contact me easily by filling
 
 ### Existing Features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z (Delete after you have read just leaving it here so you know how it works)
-
-Navigation Feature - allows users to navigate around my website with convenience, by having them select the appropriate sections.
-Navigation Selection Status Feature - allows users to know which section they are on by highlighting the section they are currently on.
-Education History Timeline Feature - allows users to see my education history evidently by navigating to my education page.
-Projects Gallery Feature - allows user to see my projects almost as if it is a gallery.
-Projects Gallery Summary Feature- allows user to see a short summary of each project when a cursor is detected on an image.
-Contact Me Feature - allows user to contact me by having them fill out a short survey!
+ - Navigation Feature - Allows users to navigate around my website with convenience, by having them select the appropriate sections
+ - Navigation Selection Status Feature - Allows users to know which section they are on by highlighting the section they are currently on
+ - Education Timeline Feature - Allows users to see my education history evidently by navigating to my education page
+ - Projects Gallery Feature - Allows user to see my projects almost as if it is a gallery
+ - Projects Gallery Summary Feature- Allows user to see a short summary of each project when a cursor is detected on an image
+ - Contact Me Feature - Allows user to contact me via email by having them fill out a form
 
 ## Technologies Used
 
@@ -70,17 +68,24 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
+1. Education section:
+    1. Go to the "Education" page
+    2. Resize the browser viewport using the Developer Tools aka Inspect Element
+    3. See if timeline is adjusted accordingly to the viewport width such that at every different width, the timeline and its content can be seen clearly without any obstruction
+
+2. Porject gallery:
+    1. Go to the "Projects" page
+    2. Resize the browser viewport using the Developer Tools aka Inspect Element
+    3. See if the gallery is resized based on the viewport
+    4. A viewport of less than around 1000px will display a vertical gallery
+
+3. Contact form:
     1. Go to the "Contact Me" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    4. Try to submit the form with all inputs valid and verify that a success message appears
+    5. Resize the browser viewport using the Developer Tools aka Inspect Element
+    6. See if each individual input are sized properly based on the viewport
 
 ## Credits
 
