@@ -36,7 +36,7 @@ Global Usage
 }
 
 .container.center, .contact-form.center {
-    margin: 0 30rem;
+    margin: 0 20rem;
     margin-top: 10rem;
 }
 
@@ -51,7 +51,7 @@ Global Usage
 }
 
 .title {
-    font-size: 3.6rem;
+    font-size: 4.6rem;
     margin-bottom: 10rem;
 }
 
@@ -214,6 +214,7 @@ Education Section
 .timeline__year {
     position: relative;
     text-align: right;
+    font-style: italic;
     padding: 0 5rem;
 }
 
@@ -327,6 +328,7 @@ Contact Me/Form Section
 
 .form-row input, .form-row textarea {
     flex: 1 0 0;
+    width: 100%;
     margin-bottom: 2rem;
     padding: 1.5rem;
     border: 2px solid #2e2e2e;
@@ -351,7 +353,8 @@ Contact Me/Form Section
 /****************************************
 Media Queries
 ****************************************/
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 768px) { /*To cater for both mobile and tablet*/
 
     /*****
     Navbar
@@ -364,6 +367,14 @@ Media Queries
         padding: 2rem;
     }
 
+
+    /*****
+    Global
+    *****/
+    .title {
+        margin: 5rem 0;
+    }
+
     .container.center, .contact-form.center {
         margin: 0;
         margin-top: 5rem;
@@ -373,16 +384,11 @@ Media Queries
         padding: 0 10rem;
     }
 
-    /*****
-    Global
-    *****/
-    .title {
-        margin: 5rem 0;
-    }
-
     .overlay-1 {
         height: 35rem;
     }
+
+
     /*****
     Education Section
     *****/
@@ -403,6 +409,10 @@ Media Queries
         padding: 0 5rem;
     }
 
+    .timeline__description p {
+        margin: 0.6rem 0;
+    }
+
     .timeline__year, .timeline__description {
         width: 100%;
     }
@@ -410,6 +420,8 @@ Media Queries
     .timeline::after {
         left: 0;
     }
+
+
     /*****
     Projects Section
     *****/
@@ -428,9 +440,89 @@ Media Queries
     .row-1 .project-hidden-text {
         padding: 5rem;
     }
+
+    /*****
+    Contact Me Section
+    *****/
+    .form-row {
+        flex-direction: column; /*Make all inputs take up each individual block*/
+    }
+
+    .form-row input, .form-row textarea {
+        padding: 1rem;
+    }
+
+    .form-row:nth-child(3) {
+        height: 15rem; /*Make the textarea height taller*/
+    }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1280px){ /*To cater for larger size tablet and small laptop screens*/
+    
+    /*****
+    Global
+    *****/
+    .title {
+        font-size: 4.5rem;
+        margin: 5rem 0;
+    }
+
+    .container.center, .contact-form.center {
+        margin: 0;
+        margin-top: 5rem;
+    }
+
+    .container {
+        padding: 0 20rem;
+    }
+
+    .overlay-1 {
+        height: 35rem;
+    }
+
+
+    /*****
+    Education Section
+    *****/
+    .timeline .row {
+        flex-direction: column;
+    }
+
+    .timeline__year {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .timeline__year::after {
+        left: -4px;
+    }
+
+    .timeline__description {
+        padding: 0 5rem;
+    }
+
+    .timeline__description p {
+        margin: 0.6rem 0;
+    }
+
+    .timeline__year, .timeline__description {
+        width: 100%;
+    }
+
+    .timeline::after {
+        left: 0;
+    }
+
+
+    /*****
+    Project Section
+    *****/
+    .row-1 .project-hidden-text {
+        padding: 5rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1400px) { /*To cater for the largest possible screen*/
     .title {
         font-size: 4.8rem;
     }
