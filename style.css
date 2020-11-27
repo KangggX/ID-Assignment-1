@@ -8,9 +8,9 @@ body {
     background-color: #434343;
     color: #fff;
     margin: 0;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Roboto ", sans-serif;
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /****Root Element for rem unit usage****/
