@@ -477,7 +477,7 @@ Media Queries
     }
 
     .overlay-1 {
-        height: 35rem;
+        height: 50rem;
     }
 
 
@@ -524,6 +524,11 @@ Media Queries
 
 @media screen and (min-width: 1400px) { /*To cater for the largest possible screen*/
     .title {
+        text-align: center;
         font-size: 4.8rem;
+    }
+
+    .container {
+        margin-top: 5rem;
     }
 }
