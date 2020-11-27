@@ -1,7 +1,6 @@
 Low Kang Xuan
 #Portfolio for Interactive Development
 
-Readme template for interactive development module
 # Assignment 1 Porfolio
 My project, Assignment 1 Porfolio, is about developing a portfolio about myself with the help of Interactive Development tools such as Visual Studio code, Github and Front-end Programming language, HTML & CSS. 
 My portfolio consists of 3 different pages and a section.
@@ -31,12 +30,12 @@ Lastly, each and every page have a Green footer located below which consists of 
 
 With all these uniform website structures, I am sure that my employers will be more than happy to be able to navigate around my portfolio easily.
 
-User Story
+## User Story
 
-As an employer, I would like to be able to contact my future employee with convenience, so I can use the convenient Contact Me Section located at the bottom of each page.
-As an employer, I would like to know more about my employee's passion, so I can read his introduction.
-As an employer, I would like to know about my employee's education history, so I can know about how he has done in his major exams.
-As an employer, I would like to know more about my employee's projects, so that I can check whether his work is aligned to my companies requirements.
+ - As an employer, I would like to be able to contact my future employee with convenience, so I can use the convenient Contact Me Section located at the bottom of each page.
+ - As an employer, I would like to know more about my employee's passion, so I can read his introduction.
+ - As an employer, I would like to know about my employee's education history, so I can know about how he has done in his major exams.
+ - As an employer, I would like to know more about my employee's projects, so that I can check whether his work is aligned to my companies requirements.
 
 
 Adobe XD: 
@@ -44,17 +43,17 @@ Adobe XD:
 My website consists of 4 different pages and 1 section with various features implemented.
 Firstly, my navigation bar which allows my audience to navigate around my website efficiently.
 Secondly, my timeline feature which allows my audience to read my education history with convenience
-Thirdly, my projects gallery feature which allows users to see a short summary of each project when a cursor is detected on an image and is gallery themed!
-Lastly, my Contact Me feature which allows users to contact me easily by filling out a short form i created!
+Thirdly, my projects gallery feature which allows users to see a short summary of each project when a cursor is detected on an image and is gallery themed.
+Lastly, the Contact Me feature which allows users to contact me via email easily by filling out a form.
 
 ### Existing Features
 
- - Navigation Feature - Allows users to navigate around my website with convenience, by having them select the appropriate sections
- - Navigation Selection Status Feature - Allows users to know which section they are on by highlighting the section they are currently on
- - Education Timeline Feature - Allows users to see my education history evidently by navigating to my education page
- - Projects Gallery Feature - Allows user to see my projects almost as if it is a gallery
- - Projects Gallery Summary Feature- Allows user to see a short summary of each project when a cursor is detected on an image
- - Contact Me Feature - Allows user to contact me via email by having them fill out a form
+ - Navigation Feature - Allow users to navigate around my website with convenience, by having them select the appropriate sections
+ - Navigation Selection Status Feature - Allow users to know which section they are on by highlighting the section they are currently on
+ - Education Timeline Feature - Allow users to see my education history evidently by navigating to my education page
+ - Projects Gallery Feature - Allow user to see my projects almost as if it is a gallery
+ - Projects Gallery Summary Feature- Allow user to see a short summary of each project when a cursor is detected on an image
+ - Contact Me Feature - Allow user to contact me via email by having them fill out a form
 
 ## Technologies Used
 
