@@ -415,6 +415,24 @@ Media Queries
     .timeline::after {
         left: 0;
     }
+    /*****
+    Projects Section
+    *****/
+    .project-gallery .row-2 {
+        height: auto;
+    }
+
+    .project-gallery .row-1, .project-gallery .row-2 {
+        display: block;
+    }
+
+    .project-thumbnail {
+        background-position: center;
+    }
+
+    .row-1 .project-hidden-text {
+        padding: 5rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {
