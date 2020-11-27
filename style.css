@@ -355,6 +355,12 @@ Contact Me/Form Section
 Media Queries
 ****************************************/
 
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 0 3rem;
+    }
+}
+
 @media screen and (max-width: 768px) { /*To cater for both mobile and tablet*/
 
     /*****
@@ -410,6 +416,7 @@ Media Queries
 
     .timeline__description {
         padding: 0 5rem;
+        padding-right: 0;
     }
 
     .timeline__description p {
