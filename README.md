@@ -1,5 +1,5 @@
 Low Kang Xuan
-https://kangggx.github.io/Assignment-1/
+https://kangggx.github.io/ID-Assignment-1/
 #Portfolio for Interactive Development
 
 # Assignment 1 Porfolio
